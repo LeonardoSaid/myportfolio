@@ -6,3 +6,24 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
+
+  /* The emerging W3C standard that is currently Firefox-only */
+   * {
+    scrollbar-width: thin;
+    scrollbar-color: #202020 transparent;
+  }
+  
+  /* Works on Chrome/Edge/Safari */
+  *::-webkit-scrollbar {
+    width: .75rem;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: #202020;
+    border-radius: .35rem;
+    border: .175rem solid #202020;
+  }
