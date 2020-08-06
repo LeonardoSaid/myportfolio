@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Leonardo Said | Engenheiro de Computação',
-  lang: '', // e.g: en, es, fr, jp
+  lang: 'pt',
   description: 'Bem-vindo ao meu website!',
 };
 
@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra commodo mattis. Proin sodales mauris placerat hendrerit dapibus.',
+  paragraphTwo:
+    'In vehicula a massa nec lobortis. Nunc vehicula massa eu nibh dapibus eleifend. Nunc dignissim diam lectus, eget sollicitudin dolor iaculis sed.',
+  paragraphThree:
+    'Para os HRs que desejam uma versão mais organizada e simplificada das minhas informações, você pode baixar meu currículo no link abaixo:',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -32,7 +35,7 @@ export const projectsData = [
     title: 'PQAI - Plataforma de Qualidade do Ar Interno',
     info: 'Este é a info da PQAI.',
     info2: 'Info 2 da PQAI.',
-    url: '',
+    url: '/pqai',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
@@ -67,23 +70,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'github',
+      url: 'https://github.com/LeonardoSaid',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '',
+      url: 'https://www.linkedin.com/in/leonardo-said-2314621a4/',
     },
   ],
 };

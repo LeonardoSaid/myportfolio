@@ -1,3 +1,5 @@
+@import '../abstracts/variables';
+
 html {
   font-size: 62.5%;
 }
@@ -10,12 +12,12 @@ body {
   /* The emerging W3C standard that is currently Firefox-only */
    * {
     scrollbar-width: thin;
-    scrollbar-color: #202020 transparent;
+    scrollbar-color: $highlight-color transparent;
   }
   
   /* Works on Chrome/Edge/Safari */
   *::-webkit-scrollbar {
-    width: .75rem;
+    width: .8rem;
   }
 
   *::-webkit-scrollbar-track {
@@ -23,7 +25,7 @@ body {
   }
 
   *::-webkit-scrollbar-thumb {
-    background: #202020;
-    border-radius: .35rem;
-    border: .175rem solid #202020;
+    background: $highlight-color;
+    border-radius: .4rem;
+    border: .2rem solid $highlight-color;
   }
