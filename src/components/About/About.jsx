@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, achievements, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -37,15 +37,11 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
-                  {paragraphOne || 'Este é o primeiro parágrafo..'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphTwo || 'Este é o segundo parágrafo.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Este é o terceiro parágrafo.'}
-                </p>
+                <p className="about-wrapper__info-text">{paragraphOne || ''}</p>
+                <p className="about-wrapper__info-text">{paragraphTwo || ''}</p>
+                {achievements &&
+                  achievements.map((a) => <p className="about-wrapper__info-text">{a}</p>)}
+                <p className="about-wrapper__info-text">{paragraphThree || ''}</p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a

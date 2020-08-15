@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Olá 👋, eu sou ',
   name: 'Leonardo Said',
-  subtitle: '',
+  subtitle: 'Engenheiro de Computação | Desenvolvedor Full Stack',
   cta: '',
 };
 
@@ -19,13 +19,21 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra commodo mattis. Proin sodales mauris placerat hendrerit dapibus.',
+    'Formado na Universidade Federal de Itajubá (UNIFEI), atuo na área de desenvolvimento de sistemas como programador Full Stack, com experiência profissional em sistemas IoT e computação em nuvem.',
   paragraphTwo:
-    'In vehicula a massa nec lobortis. Nunc vehicula massa eu nibh dapibus eleifend. Nunc dignissim diam lectus, eget sollicitudin dolor iaculis sed.',
+    'Eu ❤️ programação, no meu tempo livre trabalho em meus projetos open-source, problemas de maratona e desenvolvimento de Alexa Skills.',
   paragraphThree:
-    'Para os HRs que desejam uma versão mais organizada e simplificada das minhas informações, você pode baixar meu currículo no link abaixo:',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+    'Para os RHs que desejam uma versão mais organizada e simplificada dos meus dados, você pode baixar meu currículo no link abaixo:',
+  achievements: [
+    '🏆 Campeão da IV OLIP do IFSULDEMINAS - 2014',
+    '🤓 +200 problemas resolvidos no URI Online Judge',
+    '🎓 Diploma de English Proficiency pela Wizard',
+  ],
+  resume: 'https://www.resumemaker.online/es.php',
 };
+
+// SKILLS DATA
+export const skillsData = [];
 
 // PROJECTS DATA
 export const projectsData = [
@@ -33,19 +41,21 @@ export const projectsData = [
     id: nanoid(),
     img: 'pqai.png',
     title: 'PQAI - Plataforma de Qualidade do Ar Interno',
-    info: 'Este é a info da PQAI.',
-    info2: 'Info 2 da PQAI.',
+    info:
+      'Projeto P&D da Honeywell para desenvolvimento de uma plataforma de monitoramento e gestão da qualidade do ar em ambientes climatizados.',
+    info2: 'Tech Stack: React, Redux, Java, MySQL, MongoDB, Flutter',
     url: '/pqai',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'friot.png',
     title: 'Refrigeração Inteligente',
-    info: 'Este é a info da Friot.',
-    info2: 'Info2 da Friot',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info:
+      'Projeto P&D da Honeywell em parceria com a PixelTI para desenvolvimento de uma plataforma de monitoramento e automatização de refrigeradores.',
+    info2: 'Tech Stack: React, Redux, NodeJS, Express, MySQL, MongoDB, Flutter',
+    url: '/friot',
+    repo: '', // if no repo, the button will not show up
   },
   // {
   //   id: nanoid(),

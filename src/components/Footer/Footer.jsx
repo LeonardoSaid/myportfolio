@@ -40,7 +40,7 @@ const Footer = () => {
         <p className="footer__text">
           © 2020 - Leonardo Said |{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Inspired by Jacobo Martínez work
+            Inspired by Jacobo Martínez
           </a>
         </p>
 
