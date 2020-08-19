@@ -49,14 +49,14 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
+                      {/* <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
                         Mais Informações
-                      </a>
+                      </a> */}
 
                       {repo && (
                         <a
@@ -65,7 +65,7 @@ const Projects = () => {
                           className="cta-btn text-color-main"
                           href={repo}
                         >
-                          Mais Informações
+                          button
                         </a>
                       )}
                     </div>
@@ -80,12 +80,12 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
-                      <a
+                      {/* <a
                         href={url || '#!'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
-                      >
+                      > */}
                         <Tilt
                           options={{
                             reverse: false,
@@ -103,7 +103,7 @@ const Projects = () => {
                             <ProjectImg alt={title} filename={img} />
                           </div>
                         </Tilt>
-                      </a>
+                      {/* </a> */}
                     </div>
                   </Fade>
                 </Col>
