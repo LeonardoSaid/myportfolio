@@ -39,8 +39,6 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">{paragraphOne || ''}</p>
                 <p className="about-wrapper__info-text">{paragraphTwo || ''}</p>
-                {achievements &&
-                  achievements.map((a) => <p className="about-wrapper__info-text">{a}</p>)}
                 <p className="about-wrapper__info-text">{paragraphThree || ''}</p>
                 {resume && (
                   <span className="d-flex mt-3">

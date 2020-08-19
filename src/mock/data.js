@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Olá 👋, eu sou ',
   name: 'Leonardo Said',
-  subtitle: 'Engenheiro de Computação | Desenvolvedor Full Stack',
+  subtitle: 'Engenheiro de Computação | Desenvolvedor',
   cta: '',
 };
 
@@ -19,16 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Formado na Universidade Federal de Itajubá (UNIFEI), atuo na área de desenvolvimento de sistemas como programador Full Stack, com experiência profissional em sistemas IoT e computação em nuvem.',
+    'Graduando em Engenharia de Computação na Universidade Federal de Itajubá, tenho experiência profissional no desenvolvimento de projetos P&D, sistemas IoT e computação em nuvem.',
   paragraphTwo:
     'Eu ❤️ programação, no meu tempo livre trabalho em meus projetos open-source, problemas de maratona e desenvolvimento de Alexa Skills.',
   paragraphThree:
-    'Para os RHs que desejam uma versão mais organizada e simplificada dos meus dados, você pode baixar meu currículo no link abaixo:',
-  achievements: [
-    '🏆 Campeão da IV OLIP do IFSULDEMINAS - 2014',
-    '🤓 +200 problemas resolvidos no URI Online Judge',
-    '🎓 Diploma de English Proficiency pela Wizard',
-  ],
+    'Para os RHs que desejam uma versão mais organizada e detalhada dos meus dados, você pode baixar meu currículo no link abaixo:',
   resume: 'https://www.resumemaker.online/es.php',
 };
 
@@ -61,9 +56,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'E aí, vamos conversar?',
+  btn: 'Enviar E-mail',
+  email: 'leonardocosta013@gmail.com',
 };
 
 // FOOTER DATA
@@ -79,10 +74,15 @@ export const footerData = {
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/leonardo-said-2314621a4/',
     },
+    {
+      id: nanoid(),
+      name: 'gitlab',
+      url: 'https://gitlab.com/LeonardoSaid',
+    },
+    {
+      id: nanoid(),
+      name: 'spotify',
+      url: 'https://open.spotify.com/user/22rg3elkrzcfbf3opcgjaveiq?si=UdVsz3SCT3eCzs0erzOhvA',
+    },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
