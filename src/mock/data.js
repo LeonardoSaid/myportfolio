@@ -24,7 +24,7 @@ export const aboutData = {
     'Eu ❤️ programação, no meu tempo livre trabalho em meus projetos open-source, problemas de maratona e desenvolvimento de Alexa Skills.',
   paragraphThree:
     'Para os RHs que desejam uma versão mais organizada e detalhada dos meus dados, você pode baixar meu currículo no link abaixo:',
-  resume: 'https://www.resumemaker.online/es.php',
+  resume: 'https://drive.google.com/file/d/1YteEo9ZBkPDYduGqgbYh9JKYKWkUaiJG/view?usp=sharing',
 };
 
 // SKILLS DATA
@@ -47,7 +47,7 @@ export const projectsData = [
     img: 'friot.png',
     title: 'Refrigeração Inteligente',
     info:
-      'Projeto P&D da Honeywell em parceria com a PixelTI para desenvolvimento de uma plataforma de monitoramento e automatização de refrigeradores.',
+      'Projeto P&D da Honeywell em parceria com a PixelTI e Photon Tic para desenvolvimento de uma plataforma de monitoramento e automatização de refrigeradores.',
     info2: 'Tech Stack: React, Redux, NodeJS, Express, MySQL, MongoDB, Flutter',
     url: '/friot',
     repo: '', // if no repo, the button will not show up
@@ -57,7 +57,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: 'E aí, vamos conversar?',
-  btn: 'Enviar E-mail',
+  btn: 'Envie um E-mail',
   email: 'leonardocosta013@gmail.com',
 };
 
