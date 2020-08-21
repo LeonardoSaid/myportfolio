@@ -24,7 +24,7 @@ export const aboutData = {
     'Eu ❤️ programação, no meu tempo livre trabalho em meus projetos open-source, problemas de maratona e desenvolvimento de Alexa Skills.',
   paragraphThree:
     'Para os RHs que desejam uma versão mais organizada e detalhada dos meus dados, você pode baixar meu currículo no link abaixo:',
-  resume: 'https://drive.google.com/file/d/1YteEo9ZBkPDYduGqgbYh9JKYKWkUaiJG/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1fV1AZUjxQtZLJRMw4Yp_q_wbBue6vEN9/view?usp=sharing',
 };
 
 // SKILLS DATA
